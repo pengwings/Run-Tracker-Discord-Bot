@@ -33,9 +33,6 @@ client.on("messageCreate", msg => {
       if(msg.content.includes("help")) {
         msg.channel.send("to add miles, type 'add' and the number of miles to add \n to reset number of miles type 'reset' \n to check number of miles type 'status'");
       }
-      if(msg.content.includes("insult")) {
-        msg.channel.send("Melody sucks");
-      }
     }
 })
 
